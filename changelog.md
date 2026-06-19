@@ -18,6 +18,7 @@ navigation menu
 Navigation bar resizing 
 mobile screen
 layout of different screen sizes
+The wireframes or sitemap
 
 ## Removed
 

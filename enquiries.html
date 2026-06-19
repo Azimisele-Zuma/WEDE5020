@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Azi's Bakery offers a variety of deliciousbaked goods,including cakes, pastries and bread.Our services include customcake orders, cateringfor events and bakingclasses">
+    <meta name="keywords" content="cakes, cupcakes,bread,crossaint,bakery,Azi,macaroons, baguette,sandwich,coffe,cuppacino,amberfield college,cookies">
+    <link rel="stylesheet" href="css_assets/style.css">
+   
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer/>">
+    <title>Enquiry</title>
+</head>
+ <body>
+  <header class="header">
+    <!--logo-->
+    
+   <a href="" class="Logo"><img src="images/azi.web.png" alt="cOMPANY LOGO">
+           <nav class="navigation section-content">
+                <ul class="navigation">
+                
+                    <!--navigation menu -->
+                    <li style="display:inline;">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li style="display:inline;">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li style="display:inline;">
+                        <a href="enquiries.html">Enquiries</a>
+                    </li>
+                    <li style="display:inline;">
+                        <a href="products.html"> Products</a>
+                    </li>
+                    <li style="display:inline">
+                        <a href="contact_us.html">Contact page</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--Icons-->
+          <div class="icons">
+            <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="icon" id="cart-btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cart-count">0</span></div> 
+            <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+          </div>
+
+          <div   class="cart-items-container">
+            <div class="cart-items">
+              <p>Your cart is empty.</p>
+            </div>
+          </div>
+      
+
+          <div class="search-form">
+            <div class="search-box-container">
+            <input type="text" name="search" placeholder="Search" id="search-box">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+          </div>
+          </div>
+   </header>
+   <main>
+    
+    <!--Enquiries form-->
+    <section class="enquiry-form-container">
+    <h2 class="enquiries-title">ENQUIRIES</h2>
+    <form  id="enquiryForm" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="24bd4096-c146-4c5c-aecb-221fb5afd13c">
+        <div class="form-group full-width">
+            <label for="name">Full Name & Surname *</label>
+            <input type="text" id="name" name="name" placeholder="" required>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Contact Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="" required>
+            </div>
+        </div>
+
+        <div class="form-group full-width">
+            <label for="province">Province</label>
+            <select id="province" name="province" required>
+                <option value="" disabled selected>Select your province</option>
+                <option value="gauteng">Gauteng</option>
+                <option value="free-state">Free State</option>
+                <option value="kwazulu-natal">KwaZulu-Natal</option>
+                <option value="limpopo">Limpopo</option>
+                <option value="eastern-cape">Eastern Cape</option>
+                <option value="mpumalanga">Mpumalanga</option>
+                <option value="northern-cape">Northern Cape</option>
+                <option value="north-west">North West</option>
+                <option value="western-cape">Western Cape</option>
+            </select>
+        </div>
+
+        <div class="form-group full-width">
+            <label for="message">What can we assist you with? </label>
+            <textarea id="message" name="message" rows="5" placeholder="" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Enquiry</button>
+
+    </form>
+</section>
+   </main>` 
+
+   
+         <div id="cart-sidebar" class="cart-sidebar">
+        <button id="close-btn" class="close-btn">&times;</button>
+        <h2>Your Cart</h2>
+        <ul id="cart-items">
+            </ul>
+    </div>
+
+    <div id="cart-overlay" class="cart-overlay"></div>
+   
+   <!--Footer-->
+    <footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-item">
+            <i class="fas fa-phone"></i> <h3>CALL US</h3>
+            <p>072 856 7259</p>
+        </div>
+        <div class="footer-item">
+            <i class="fas fa-camera"></i>
+            <h3>FOLLOW US</h3>
+            <p>@azi's.bakery</p>
+        </div>
+        <div class="footer-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>VISIT US</h3>
+            <p>4810 Amapondo Dr, Rooihuiskraal, Centurion 0157</p>
+        </div>
+        <div class="footer-item">
+            <i class="fas fa-envelope"></i>
+            <h3>EMAIL US</h3>
+            <p>azisbakery@gmail.com</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Azi's Bakery. All rights reserved.</p>
+    </div>
+</footer>
+<script src="js_assets/scripts.js" ></script>
+
+<body>
+</html>

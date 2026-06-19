@@ -1,12 +1,12 @@
 ## Added
 
--Functional search bar: Implemented a real-time search feature to allow users to quickly find products.
--Interactive shopping cart: Integrated a functional cart system using JavaScript to track selected items.
--Interactive Google Map: Embedded a map on the contact/location page for better user navigation.
--Social media integration: Added links and icons connecting the site to official social media pages.
--Enhanced visual media: Uploaded high-quality product images across the site.
--Product portal navigation: Created a dedicated product portal link that seamlessly directs users to the main menu page.
--Image Lightbox feature: Integrated a JavaScript lightbox effect to expand and enhance product images when clicked.
+Functional search bar: Implemented a real-time search feature to allow users to quickly find products.
+Interactive shopping cart: Integrated a functional cart system using JavaScript to track selected items.
+Interactive Google Map: Embedded a map on the contact/location page for better user navigation.
+Social media integration: Added links and icons connecting the site to official social media pages.
+Enhanced visual media: Uploaded high-quality product images across the site.
+Product portal navigation: Created a dedicated product portal link that seamlessly directs users to the main menu page.
+Image Lightbox feature: Integrated a JavaScript lightbox effect to expand and enhance product images when clicked.
 
 
 
